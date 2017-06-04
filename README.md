@@ -74,7 +74,7 @@ But personally, we think the first way looks nicer and is easier for your fellow
 ### Challenge 1 (using gsub):
 Open the file called `invitation.rb` in your text editor.
 
-**NOTE:** This lab does not have tests, so the learn command won't work. Instead, just write your code and test it out manually by running `ruby invitation.rb` in the command line. If the output looks like it's intended to, you're good to go and can use `learn submit` to submit your work!
+**NOTE:** This lab does not have tests, so the `rspec` command won't work. Instead, just write your code and test it out manually by running `ruby invitation.rb` in the command line. If the output looks like it's intended to, you're good to go!
 
 Copy the variable definition below, which is the  invitation that was used for the Museum of Modern Art's fundraiser last year, and paste it into `invitation.rb`. 
 
