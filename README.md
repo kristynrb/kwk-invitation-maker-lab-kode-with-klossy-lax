@@ -38,7 +38,7 @@ What if you have a sentence that you want to substitute more than one word in? W
 wrong_fact = "Karlie has 5 brothers."
 true_fact = wrong_fact.gsub("brothers", "sisters").gsub("5", "3")
 
-=> "Karlie has 3 siblings"
+=> "Karlie has 3 sisters"
 ```
 ### String Interpolation
 
@@ -76,14 +76,14 @@ Open the file called `invitation.rb` in your text editor.
 
 **NOTE:** This lab does not have tests, so the learn command won't work. Instead, just write your code and test it out manually by running `ruby invitation.rb` in the command line. If the output looks like it's intended to, you're good to go and can use `learn submit` to submit your work!
 
-Copy the variable definition below, which is the  invitation that was used for the Museum of Modern Art's fundraiser last year, and paste it into `invitation.rb`. 
+Copy the variable definition below, which is the  invitation that was used for the Museum of Modern Art's fundraiser from a past year, and paste it into `invitation.rb`. 
 
 ```ruby
 gala_invitation = "The Museum of Modern Art invites you to their annual gala on Sunday the 22nd of May 2015. Festivities will be held at the MoMA at 11 W 53rd St, New York, NY 10019
 . See you then!"
 ```
 
-The Met plans to use this invitation but update it to the correct data. Instead of the Museum of Modern art, the gala takes place at **The Metropolitan Museum**. The gala will take place on Saturday May 13th, 2017. In `invitation.rb` use `.gsub`s to customize the original invitation. Remember to use `puts` to output your solution to the screen.
+The Met plans to use this invitation but update it to the correct data. Instead of the Museum of Modern art, the gala takes place at **The Metropolitan Museum** and the new address is: 1000 5th Ave, New York, NY 10028. The gala will take place on Saturday May 13th, 2017. In `invitation.rb` use `.gsub`s to customize the original invitation. Remember to use `puts` to output your solution to the screen.
 
 ### Challenge 2 (using string interpolation):
 
@@ -105,13 +105,13 @@ Now that you know what string interpolation is, assign the following content fro
 
 This may seem like it's added work, to separate our content into these 3 variables then interpolate them using #{}, but in a short moment you will see how this extra work in the beginning will save us time updating our invitation for future galas.  
 
-Now that we have the parts of the invitation that change seperated into variables, it's time to change the value of these variables to reflect next year's info. The 2017 Met Gala is being planned for May 26th, 2017 (Friday).
+Now that we have the parts of the invitation that change seperated into variables, it's time to change the value of these variables to reflect next year's info. The 2018 Met Gala is being planned for May 26th, 2018 (Friday).
 
-Use string interpolation and the variables you just created to customize the old invitation for the new 2017 invitation. As in Challenge 1, you'll want to use puts to print out your solution to the screen.
+Use string interpolation and the variables you just created to customize the old invitation for the new 2018 invitation. As in Challenge 1, you'll want to use puts to print out your solution to the screen.
 
 ### S-T-R-E-T-C-H Challenges!
 If you've made this far, here are some additional challenges for you to complete:
 
-1.  What if the Met wants the day of the week to be IN ALL CAPS in order to emphasize that in 2017 the gala will be held on FRIDAY instead of Saturday.  How can you do this? (Avoid just typing FRIDAY in replace of Friday, use a built in Ruby Method.)
+1.  What if the Met wants the day of the week to be IN ALL CAPS in order to emphasize that in 2018 the gala will be held on FRIDAY instead of Saturday.  How can you do this? (Avoid just typing FRIDAY in replace of Friday, use a built in Ruby Method.)
 2.  Now that the day is in all caps, the Met decides they don't like it and only want you to capitalize the first letter.  How can you do this?
 3. Using the `gets` command, create an interactive invitation maker that prompts the user for the information about the event that they are putting on and then returns the text of the invitation.
